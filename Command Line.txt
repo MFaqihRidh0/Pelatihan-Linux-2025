@@ -9,5 +9,18 @@ Nomor 3:
 unzip tutorials.zip -d singing_tutorials
 Nomor 4:
 grep -R "FLAG{" singing_tutorials.zip/ | grep "NBAYoungboy" | grep "opera" | head -n 1 > flag.txt
+Nomor 5:
 cd .
 wget -O plsrunmeiamnotmalwarefr $(cat flag.txt)
+Nomor 6:
+chmod +x plsrunmeiamnotmalwarefr
+./plsrunmeiamnotmalwarefr
+Nomor 7:
+xxd plsrunmeiamnotmalwarefr
+nomor 8:
+touch ransom.moolah
+ls -l ransom.moolah
+nomor9:
+pgrep plsrunmeiamnotmalwarefr
+nomor 10:
+sudo kill -9 PID
