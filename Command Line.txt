@@ -1,0 +1,13 @@
+Nomor 1:
+sudo apt update
+sudo apt install wget unzip xxd
+mkdir artists_who_can_sing
+cd artists_who_can_sing
+Nomor 2:
+wget wget --content-disposition "https://drive.google.com/uc?export=download&id=1lV1HVmPTY_BOAK6ToXymRu7V5eVfR0ut"
+Nomor 3:
+unzip tutorials.zip -d singing_tutorials
+Nomor 4:
+grep -R "FLAG{" singing_tutorials.zip/ | grep "NBAYoungboy" | grep "opera" | head -n 1 > flag.txt
+cd .
+wget -O plsrunmeiamnotmalwarefr $(cat flag.txt)
